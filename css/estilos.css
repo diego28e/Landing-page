@@ -136,6 +136,9 @@ section{
     position: absolute;
     text-align: center;
     position:relative; top:10px;left:100px;
+    opacity: 0.6;
+    border-radius: 15px;
+    
 }
 
 h1{
