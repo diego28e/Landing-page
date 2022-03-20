@@ -131,7 +131,6 @@ section{
     padding:10%;
     font-size: 30px;
     background-color: black;
-    position: absolute;
     text-align: center;
     position:relative; top:10px;left:100px;
 }
