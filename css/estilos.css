@@ -142,7 +142,7 @@ section{
     animation-duration: 4s;
     animation-direction: reverse;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
     
 }
 
