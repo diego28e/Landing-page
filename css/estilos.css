@@ -138,6 +138,11 @@ section{
     position:relative; top:10px;left:100px;
     opacity: 0.6;
     border-radius: 15px;
+    animation-name: mianimacion;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
     
 }
 
@@ -148,3 +153,11 @@ h1{
 }
 
 
+
+@keyframes  mianimacion {
+    0% {background:#aaa; left:0; top:0px;}
+    25% {background:yellow; left:12%; top:0px;}
+    50% {background:green;left:12%; top:12%;}
+    75% {background:#3cc278; left:0%; top:12%;}
+    100% {background:blue;right:14%; top:12%;}
+}
