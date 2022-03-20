@@ -150,7 +150,14 @@ h1{
     padding:2%;
     text-align: center;
     margin: auto;
+    text-transform: uppercase;
+    color:brown
 }
+
+p{
+    color:rgb(196, 176, 176);
+}
+
 
 
 
