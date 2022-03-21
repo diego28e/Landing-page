@@ -11,6 +11,7 @@ nav {
     color: aliceblue;
     height: 80px;
     width: 100%;
+    z-index: 5;
 }
 
 label.logo{
@@ -99,6 +100,7 @@ a.active,a:hover{
         text-align: center;
         left:-100%;
         transition: all .5s;
+        z-index: 1;
 
     }
 
@@ -109,6 +111,8 @@ a.active,a:hover{
     }
     nav ul li a{
         font-size:20px;
+        z-index: 2;
+
     }
     a:hover, a.active{
         background: none;
@@ -124,6 +128,7 @@ section{
     background: url(https://i.gifer.com/TIl7.gif) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+    
 }
 
 
@@ -133,7 +138,7 @@ section{
     font-size: 30px;
     background-color: black;
     text-align: center;
-    position:relative; top:10px;left:100px;
+    position:relative; top:2px;left:2px;
     opacity: 0.6;
     border-radius: 15px;
     animation-name: mianimacion;
@@ -141,6 +146,7 @@ section{
     animation-direction: reverse;
     animation-timing-function: linear;
     animation-iteration-count: 3;
+    z-index: auto;
     
 }
 
@@ -156,11 +162,15 @@ p{
     color:rgb(196, 176, 176);
 }
 
+p.descripcion{
+    color:black;
+}
 
 @keyframes  mianimacion {
     0% {background:#aaa; left:0; top:0px;}
     25% {background:yellow; left:12%; top:0px;}
     50% {background:green;left:12%; top:12%;}
     75% {background:#3cc278; left:0%; top:12%;}
-    100% {background:blue;right:14%; top:12%;}
+    90% {background:blue;right:14%; top:12%;}
+    100% {opacity: 0.1;left:0; top:0px;}
 }
